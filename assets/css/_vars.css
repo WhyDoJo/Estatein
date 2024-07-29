@@ -1,0 +1,29 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-purple-10: #703bf7;
+  --color-purple-20: #8254f8;
+  --color-purple-30: #946cf9;
+  --color-purple-40: #a685fa;
+  --color-purple-50: #dbcefd;
+  --color-purple-60: #ede7fe;
+  --color-purple-70: #f4f0fe;
+  --color-purple-80: #fbfaff;
+
+  --color-white-80: #e4e4e7;
+  --color-white-85: #f1f1f3;
+  --color-white-90: #f7f7f8;
+  --color-white-95: #fcfcfd;
+
+  --color-grey-10: #141414;
+  --color-grey-20: #1a1a1a;
+  --color-grey-30: #262626;
+  --color-grey-40: #333;
+  --color-grey-50: #4d4d4d;
+  --color-grey-60: #666;
+  --color-grey-70: #808080;
+  --color-grey-80: #999;
+
+  --font-family: "Urbanist", sans-serif;
+}
