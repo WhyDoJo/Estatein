@@ -1,0 +1,31 @@
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 24px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	border-radius: 10px;
+	color: var(--color-white);
+}
+
+.btn--dark {
+	border: 1px solid var(--color-grey-30);
+	transition: background 0.3s linear;
+}
+
+.btn--dark:hover {
+	background: var(--color-purple-10);
+}
+
+.btn--purple {
+	background: var(--color-purple-10);
+}
+
+.btn--grey {
+	display: inline-flex;
+	border: 1px solid var(--color-grey-30);
+	padding: 18px 24px;
+	background: var(--color-grey-20);
+}
