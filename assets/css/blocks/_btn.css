@@ -21,6 +21,11 @@
 
 .btn--purple {
 	background: var(--color-purple-10);
+	transition: background 0.3s ease-in-out;
+}
+
+.btn--purple:hover {
+	background: var(--color-purple-20);
 }
 
 .btn--grey {

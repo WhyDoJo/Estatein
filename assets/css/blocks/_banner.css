@@ -11,6 +11,7 @@
 .banner__list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -24,6 +25,7 @@
   background: var(--color-grey-20);
   border: 1px solid var(--color-grey-30);
   border-radius: 12px;
+  margin: 0 auto;
 }
 
 .banner__link::after {
@@ -39,7 +41,7 @@
   top: 20px;
   width: 34px;
   height: 34px;
-  background: url("/assets/img/icon/arrow-banner.svg");
+  background: url("/assets/img/banner/arrow-banner.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }

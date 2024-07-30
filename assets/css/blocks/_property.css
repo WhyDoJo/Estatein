@@ -1,0 +1,129 @@
+.property__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.property__desc {
+	max-width: 1200px;
+}
+
+.property-list {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.banner__item {
+	grid-column: 4 span;
+}
+
+.property-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 40px;
+	height: 100%;
+	width: 512px;
+	min-height: 318px;
+	border-radius: 12px;
+	border: 1px solid var(--Grey-15, #262626);
+	background: var(--Grey-08, #141414);
+}
+
+.property-card__img {
+	border-radius: 10px;
+	height: 100%;
+}
+
+.property-card__title {
+	padding-top: 30px;
+	margin-bottom: 6px;
+}
+
+.property-card__desc {
+	margin: 0;
+	max-width: 432px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	color: var(--color-grey-80);
+}
+
+.property-card__desc a {
+	color: var(--color-white);
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 150%;
+	text-decoration-line: underline;
+}
+
+.property-card__wrapp {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.property-card__wrapp {
+	padding: 30px 0px;
+}
+
+.property-card__wrapp-name {
+	display: inline;
+	padding: 8px 14px 8px 42px;
+	color: var(--color-white);
+	line-height: 150%;
+	border-radius: 28px;
+
+	background-position: 12px center;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+
+	border: 1px solid var(--color-grey-30);
+	background-color: var(--color-grey-20);
+}
+
+.property-card__wrapp-name--bedroom {
+	background-image: url("../../img/property/icon/bedroom.svg");
+}
+
+.property-card__wrapp-name--bathroom {
+	background-image: url("../../img/property/icon/bathroom.svg");
+}
+
+.property-card__wrapp-name--villa {
+	background-image: url("../../img/property/icon/villa.svg");
+}
+
+.property-card__inner {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.property-card__inner-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.property-card__inner-btn {
+	width: 100%;
+	max-width: 279px;
+}
+
+.property-card__inner-name {
+	color: var(--color-grey-80);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+}
+
+.property-card__inner-price {
+	color: var(--color-white);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 150%;
+}
