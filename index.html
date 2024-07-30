@@ -1,46 +1,107 @@
 <!DOCTYPE html>
 <html lang="en" class="page">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Estatein</title>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Estatein</title>
-  <link rel="stylesheet" href="assets/css/main.css" />
-</head>
+	<body class="page__body">
+		<!-- TAGLINE -->
+		<div class="tagline">
+			<div class="container tagline__container">
+				<div class="tagline__desc">
+					✨Discover Your Dream Property with Estatein
+				</div>
+				<a class="tagline__link" href="#">Learn More</a>
+				<button class="tagline__close">
+					<img src="/assets/img/icon/close.svg" aria-label="false" />
+				</button>
+			</div>
+		</div>
+		<!-- HEADER -->
+		<header class="header">
+			<div class="container header__container">
+				<a>
+					<img src="./assets/img/logo.svg" alt="logo" />
+				</a>
 
-<body class="page__body">
-  <!-- TAGLINE -->
-  <div class="tagline">
-    <div class="container tagline__container">
-      <div class="tagline__desc">
-        ✨Discover Your Dream Property with Estatein
-      </div>
-      <a class="tagline__link" href="#">Learn More</a>
-      <button class="tagline__close">
-        <img src="/assets/img/icon/close.svg" aria-label='false' />
-      </button>
-    </div>
-  </div>
-  <!-- HEADER -->
-  <header class="header">
-    <div class="container header__container">
-      <a>
-        <img src="/assets/img/logo.svg" alt="logo" />
-      </a>
+				<nav class="header__nav">
+					<ul class="list-reset header__list">
+						<li><a class="header__link" href="#">Home</a></li>
+						<li><a class="header__link" href="#">About Us</a></li>
+						<li><a class="header__link" href="#">Properties</a></li>
+						<li><a class="header__link" href="#">Services</a></li>
+					</ul>
+				</nav>
 
-      <nav class="header__nav">
-        <ul class="list-reset header__list">
-          <li><a class="header__link" href="#">Home</a></li>
-          <li><a class="header__link" href="#">About Us</a></li>
-          <li><a class="header__link" href="#">Properties</a></li>
-          <li><a class="header__link" href="#">Services</a></li>
-        </ul>
-      </nav>
+				<button class="btn btn-reset btn--dark">Contact Us</button>
+			</div>
+		</header>
+		<!-- MAIN -->
+		<main class="main">
+			<!-- HERO -->
+			<section class="hero">
+				<div class="container hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">
+							Discover Your Dream Property with Estatein
+						</h1>
+						<p class="section-desc hero__desc">
+							Your journey to&nbsp;finding the perfect property begins here.
+							Explore our listings to&nbsp;find the home that matches your
+							dreams.
+						</p>
 
-      <button class="btn btn-reset btn--dark">Contact Us</button>
-    </div>
-  </header>
-  <script type="module" src="/assets/js/index.js"></script>
-</body>
+						<div class="hero__btns">
+							<a class="btn btn--dark" href="#">Learn More</a>
+							<a class="btn btn--purple" href="#">Browse Properties</a>
+						</div>
 
+						<ul class="list-reset hero__list">
+							<li class="hero__item">
+								<span class="hero__number">200+</span>
+								<div class="section-desc hero__text">Happy Customers</div>
+							</li>
+							<li class="hero__item">
+								<span class="hero__number">10k+</span>
+								<div class="section-desc hero__text">
+									Properties For Clients
+								</div>
+							</li>
+							<li class="hero__item">
+								<span class="hero__number">16+</span>
+								<div class="section-desc hero__text">Years of Experience</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="hero__discover">
+						<div class="hero__discover-up">
+							<a href="#">
+								<img
+									class="hero__discover-wheel"
+									src="./assets/img/hero/word-wheel.svg"
+									width="145"
+									height="145"
+								/>
+								<img
+									class="hero__discover-arrow"
+									src="./assets/img/hero/arrow.svg"
+									width="80"
+									height="80"
+								/>
+							</a>
+						</div>
+					</div>
+
+					<div class="hero__image">
+						<img class="hero__img" src="./assets/img/hero/hero.jpg" alt="" />
+					</div>
+				</div>
+			</section>
+		</main>
+		<script type="module" src="./assets/js/index.js"></script>
+	</body>
 </html>

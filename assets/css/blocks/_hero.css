@@ -1,0 +1,102 @@
+.hero__container {
+	display: flex;
+	position: relative;
+}
+
+.hero__content {
+	padding: 144px 80px 144px 0;
+}
+
+.hero__title {
+	margin: 0;
+	max-width: 758px;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 120%;
+	color: var(--color-white);
+
+	margin-bottom: 24px;
+}
+
+.hero__desc {
+	max-width: 758px;
+}
+
+.hero__btns {
+	padding: 60px 0 60px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.hero__image {
+	position: absolute;
+	top: 0;
+	right: -140px;
+}
+
+.hero__image {
+	position: absolute;
+	top: 0;
+	right: -140px;
+}
+
+.hero__img {
+	display: block;
+}
+
+.hero__list {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.hero__item {
+	width: 239px;
+	padding: 16px 24px;
+	border: 1px solid var(--color-grey-30);
+	border-radius: 12px;
+	background: var(--color-grey-20);
+}
+
+.hero__number {
+	color: var(--color-white);
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 150%;
+	margin-bottom: 2px;
+}
+
+.hero__discover {
+	position: absolute;
+	top: 144px;
+	left: 47%;
+}
+
+.hero__discover-up {
+	position: relative;
+	z-index: 1;
+	/* display: inline-block; */
+}
+
+.hero__discover-wheel {
+	animation: rotation 10s linear 0s infinite running normal;
+}
+
+.hero__discover-arrow {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -51%);
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+
+	}
+}

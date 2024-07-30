@@ -1,0 +1,13 @@
+.title {
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 600;
+	line-height: 150%;
+	color: var(--color-white);
+}
+
+.title--xl {
+	padding-top: 150px;
+	font-size: 48px;
+	margin-bottom: 14px;
+}
