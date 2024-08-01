@@ -133,4 +133,10 @@
 	margin-right: -5px;
 }
 
+.property__first-number {
+	margin-right: 6px;
+}
 
+.property__second-number {
+	margin-left: 6px;
+}
