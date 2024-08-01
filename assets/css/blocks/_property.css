@@ -1,9 +1,3 @@
-.property__wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
 .property__desc {
 	max-width: 1200px;
 }
