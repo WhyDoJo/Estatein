@@ -1,59 +1,60 @@
 .banner {
-  padding-top: 25px;
-  padding-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .banner__container {
-  max-width: 1880px;
-  margin: 0 auto;
+	max-width: 1880px;
+	margin: 0 auto;
 }
 
 .banner__list {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 
 .banner__item {
-  position: relative;
-  padding: 40px 20px 40px 20px;
-  display: flex;
-  flex-direction: column;
-  width: 455px;
-  min-height: 212px;
-  background: var(--color-grey-20);
-  border: 1px solid var(--color-grey-30);
-  border-radius: 12px;
-  margin: 0 auto;
+	position: relative;
+	padding: 40px 20px 40px 20px;
+	display: flex;
+	flex-direction: column;
+	width: 455px;
+	min-height: 212px;
+	background: var(--color-grey-20);
+	border: 1px solid var(--color-grey-30);
+	border-radius: 12px;
+	margin: 0 auto;
+	cursor: pointer;
 }
 
 .banner__link::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+	content: '';
+	position: absolute;
+	inset: 0;
 }
 
 .banner__link::before {
-  content: "";
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 34px;
-  height: 34px;
-  background: url("/assets/img/banner/arrow-banner.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+	content: '';
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 34px;
+	height: 34px;
+	background: url('/assets/img/banner/arrow-banner.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .banner__img {
-  margin: 0 auto;
-  margin-bottom: 20px;
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .banner__text {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 150%;
-  text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	text-align: center;
 }

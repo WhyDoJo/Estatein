@@ -15,6 +15,8 @@
 
 .banner__item {
 	grid-column: 4 span;
+	max-width: 512px;
+	height: 100%;
 }
 
 .property-card {
@@ -22,8 +24,7 @@
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 40px;
-	height: 100%;
-	width: 512px;
+
 	min-height: 318px;
 	border-radius: 12px;
 	border: 1px solid var(--Grey-15, #262626);
@@ -109,7 +110,6 @@
 }
 
 .property-card__inner-btn {
-	width: 100%;
 	max-width: 279px;
 }
 
@@ -127,3 +127,10 @@
 	font-weight: 600;
 	line-height: 150%;
 }
+
+.property__slide {
+	max-width: 512px;
+	margin-right: -5px;
+}
+
+
