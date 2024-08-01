@@ -16,16 +16,16 @@ const swiper = new Swiper('.swiper', {
 
 //  ======== swiper__number
 
-const firstNum = document.querySelector('.property__first-number');
-const btnNext = document.querySelector('.swiper-button-next');
-const btnPrev = document.querySelector('.swiper-button-prev');
+const firstNum = document.querySelector('.property__first-number')
+const btnNext = document.querySelector('.swiper-button-next')
+const btnPrev = document.querySelector('.swiper-button-prev')
 
-firstNum.textContent = Number(1);
+firstNum.textContent = Number(1)
 
-btnNext.addEventListener('click', function() {
-	firstNum.textContent = Number(firstNum.textContent) + 1;
+btnNext.addEventListener('click', function () {
+	firstNum.textContent = Number(firstNum.textContent) + 1
 })
 
 btnPrev.addEventListener('click', () => {
-	firstNum.textContent = Number(firstNum.textContent) - 1;
+	firstNum.textContent = Number(firstNum.textContent) - 1
 })

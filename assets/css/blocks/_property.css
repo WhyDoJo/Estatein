@@ -85,15 +85,15 @@
 }
 
 .property-card__wrapp-name--bedroom {
-	background-image: url("../../img/property/icon/bedroom.svg");
+	background-image: url('../../img/property/icon/bedroom.svg');
 }
 
 .property-card__wrapp-name--bathroom {
-	background-image: url("../../img/property/icon/bathroom.svg");
+	background-image: url('../../img/property/icon/bathroom.svg');
 }
 
 .property-card__wrapp-name--villa {
-	background-image: url("../../img/property/icon/villa.svg");
+	background-image: url('../../img/property/icon/villa.svg');
 }
 
 .property-card__inner {
@@ -139,4 +139,9 @@
 
 .property__second-number {
 	margin-left: 6px;
+}
+
+.property__navigation {
+	padding-top: 20px;
+	border-top: 1px solid #262626;
 }

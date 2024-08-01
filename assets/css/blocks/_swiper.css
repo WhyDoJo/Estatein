@@ -5,26 +5,29 @@
 
 .property__navigation {
 	display: flex;
-	align-items: center;
-	padding-bottom: 100px;
+	align-items: flex-start;
+	justify-content: space-between;
 }
 
 .swiper-pagination {
 	position: relative;
-	display: inline-flex;
+	/* display: inline-flex;
 	width: 100%;
-	height: 100%;
+	height: 100%; */
 }
 
 .property__navigation-btns {
 	display: flex;
-	gap: 30px;
+	align-items: center;
+	gap: 10px;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
 	position: relative;
-	max-width: none;
+	margin: 0;
+	left: 0;
+	min-width: 30px;
 	width: 100%;
 	height: 100%;
 	padding: 14px;
