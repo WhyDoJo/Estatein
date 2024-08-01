@@ -16,6 +16,11 @@
 	height: 100%; */
 }
 
+.swiper-navigation {
+	padding-top: 20px;
+	border-top: 1px solid #262626;
+}
+
 .property__navigation-btns {
 	display: flex;
 	align-items: center;

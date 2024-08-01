@@ -4,7 +4,7 @@
 }
 
 .faq-list__item {
-	/* grid-column: 4 span; */
+	min-height: 346px;
 }
 
 .faq-card {
@@ -13,7 +13,6 @@
 	align-items: flex-start;
 	padding: 50px;
 
-	min-height: 346px;
 	border-radius: 12px;
 	border: 1px solid var(--Grey-15, #262626);
 	background: var(--Grey-08, #141414);
