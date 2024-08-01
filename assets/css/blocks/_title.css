@@ -9,6 +9,7 @@
 .title--xl {
 	margin: 0;
 	padding: 0;
+	position: relative;
 	padding-top: 150px;
 	font-size: 48px;
 	margin-bottom: 14px;
@@ -18,4 +19,17 @@
 	margin: 0;
 	padding: 0;
 	font-size: 24px;
+}
+
+.title--xl::before {
+	content: '';
+	position: absolute;
+	left: -20px;
+	bottom: 102px;
+	width: 68px;
+	height: 30px;
+	background-image: url('../../img/property/title-decor.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
 }

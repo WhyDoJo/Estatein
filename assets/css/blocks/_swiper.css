@@ -3,7 +3,7 @@
 	content: '';
 }
 
-.property__navigation {
+.swiper-navigation {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;

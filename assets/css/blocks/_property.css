@@ -13,11 +13,11 @@
 	padding-bottom: 50px;
 }
 
-.banner__item {
+/* .property-list__item {
 	grid-column: 4 span;
 	max-width: 512px;
 	height: 100%;
-}
+} */
 
 .property-card {
 	display: flex;
@@ -47,7 +47,6 @@
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 150%;
 	color: var(--color-grey-80);
 }
 
