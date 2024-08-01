@@ -21,7 +21,7 @@
 	border-top: 1px solid #262626;
 }
 
-.property__navigation-btns {
+.property-navigation-btns {
 	display: flex;
 	align-items: center;
 	gap: 10px;

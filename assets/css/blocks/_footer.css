@@ -105,7 +105,7 @@
 	background: var(--color-grey-20);
 }
 
-.bottom__container {
+.container-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
